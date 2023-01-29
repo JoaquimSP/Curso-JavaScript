@@ -13,3 +13,13 @@ h1:hover {
     color: antiquewhite;
     text-shadow: 1px 1px 10px black;
 }
+
+/* Exercício 6 */
+
+div#area {
+    background-color: aliceblue;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+}
