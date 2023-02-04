@@ -9,6 +9,10 @@ header {
     text-align: center;
 }
 
+h1:hover{
+    color: rgb(247, 74, 103);
+}
+
 section {
     background-color: white;
     border-radius: 10px;
@@ -20,6 +24,7 @@ section {
 
 div#message {
     text-align: center;
+    padding: 8px;
 }
 
 div#photo {

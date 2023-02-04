@@ -1,4 +1,4 @@
-function carregar() {
+function changeImg() {
   var msg = window.document.getElementById('message')
   var img = window.document.getElementById('image')
 
