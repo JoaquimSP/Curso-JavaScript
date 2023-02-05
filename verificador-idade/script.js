@@ -18,9 +18,12 @@ function checkAge(){
 
      if(form_sex[0].checked){
         genero = 'Homem'
-        if (idade >=0 && idade < 10){
-            // Criança
+        if (idade >=0 && idade < 5){
+            // Bebê
             img.setAttribute('src', 'img/baby-m.png')
+        } else if (idade < 10){
+            // Criança
+            img.setAttribute('src', 'img/children-m.png') 
         } else if (idade < 21){
             // Jovem
             img.setAttribute('src', 'img/teenager-m.png')
@@ -33,9 +36,12 @@ function checkAge(){
         }
      } else if (form_sex[1].checked){
         genero = 'Mulher'
-        if (idade >=0 && idade < 10){
-            // Criança
+        if (idade >=0 && idade < 5){
+            // Bebê
             img.setAttribute('src', 'img/baby-w.png')
+        } else if(idade < 10){
+            // Criança
+            img.setAttribute('src', 'img/children-w.png')
         } else if (idade < 21){
             // Jovem
             img.setAttribute('src', 'img/teenager-w.png')
