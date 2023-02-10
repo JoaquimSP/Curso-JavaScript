@@ -4,9 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/style-exer.css">
+    <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
     <title>Super contador</title>
 </head>
 <body>
-  <h1>Super contador</h1>  
+ <header>
+    <h1>Contador</h1>
+ </header>   
+   <section>
+     <div>
+        <p>Início: 
+          <input type="number" name="num_first" id="num_first" required>  
+        </p>
+        <p>Fim:
+          <input type="number" name="num_last" id="num_last" required>  
+        </p>
+        <p>Passo:
+          <input type="number" name="num" id="num" required>
+        </p>
+        <p>
+          <input type="button" value="Contar" onclick="countNum()">  
+        </p>
+        <div id="message">
+           Preparando a contagem... 
+        </div>
+     </div>
+   </section>
+  <footer>
+    <p>&copy; Joaquim Pinto</p>
+  </footer>  
+ <script src="script.js"></script>  
 </body>
 </html>
